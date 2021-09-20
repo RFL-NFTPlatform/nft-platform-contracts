@@ -1,5 +1,7 @@
 /artifacts/**/*.json
 !/artifacts/contracts/RFOXCollection.sol/RFOXCollection.json
 /cache/
+/coverage/
 /node_modules/
 /.env
+/coverage.json
