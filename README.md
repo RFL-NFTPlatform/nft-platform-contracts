@@ -119,17 +119,16 @@ You can also debug just the compile step by running `yarn hardhat compile`.
 This is often due to the hardhat-hdwallet provider not being able to connect. Go to your [Alchemy Dashboard](https://dashboard.alchemyapi.io/signup?referral=affiliate:e535c3c3-9bc4-428f-8e27-4b70aa2e8ca5) (or infura.io) and create a new project. Use your "project ID" as your new `ALCHEMY_KEY` and make sure you export that command-line variable above.
 
 ## Running Local Tests
-
-In one terminal window, run:
-
-```sh
-yarn run ganache-cli
-```
-
-Once Ganache has started, run the following in another terminal window:
+Run the following in terminal window:
 
 ```sh
 yarn run test
+```
+## Running Integration Tests
+Run the following in terminal window:
+
+```sh
+yarn run test:int
 ```
 
 ## Demo Scripts
